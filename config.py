@@ -9,17 +9,17 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "6435225"))
 API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d")
 BOT_PRIVACY = getenv("BOT_PRIVACY", "https://telegra.ph/Privacy-Policy-for-AnieXEricaMusic-10-06")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "7355171571:AAEP20EaHwTtICy4tvix6XtspZz5pvWiK4o")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Anubarlo:Anubarlo@cluster0.ioiefbq.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1001971806089))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1002059513294))
 
-OWNER_ID = int(getenv("OWNER_ID", 7045191057))
+OWNER_ID = int(getenv("OWNER_ID", 7291869416))
 
-OWNER = int(getenv("OWNER", 2105971379))
+OWNER = int(getenv("OWNER", 7291869416))
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -27,7 +27,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY","HK543fklqxgt66hvxf")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/AbhiModszYT/AnieXEricaMusic",
+    "https://github.com/E9N99/aw",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -42,7 +42,7 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 5242880000))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 5242880000))
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BAGyIDwAdnUBa8ierZm-mNQW0QVoI9rM7lrjBnj24mKqUtnTpykyFslqs2AiB5tF2jhuXcEH3WJE6pQ0s77yoFOzeMslspH8rqRQWXR3nPtvSf6MZesh1A6mZ3_s9dNpWAAmsxmOcdg7-SgCm-DX5nMbBmU9BYRMzFS18YJQoHXZ5mtND06Z_6ad5eMDW7H-bZkoBWcTiAtG0sPh9mUZQI6OZHMetLTCJPG4QlG4r8SjsBpF_L9a1ztq6aK7EwS8NEpwbecM75evbDa1LS6zUp-v3tFot1nm-Lo_9SIvIjQYY5_IMex_LCczjw__sNeeITjeraAuQ-GWJtCnXFtXwNfy41NL6gAAAAHakSuGAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -89,3 +89,4 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
